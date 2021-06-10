@@ -99,12 +99,12 @@ body.night, html.night {
 
 body.night ::-moz-selection, html.night ::-moz-selection {
     color: #36363c;
-    background: #ffdc00
+    background: #ff8082
 }
 
 body.night ::selection, html.night ::selection {
     color: #36363c;
-    background: #ffdc00
+    background: #ff8082
 }
 
 body.night .switch-wrapper .sun, html.night .switch-wrapper .sun {
@@ -181,7 +181,7 @@ strong {
 
 @media screen and (max-width:1024px) {
     .section {
-        padding: 50px
+        padding: 30px
     }
 }
 
@@ -669,15 +669,6 @@ strong {
        text-align: center;
     }
 
-    /* .content h1 {
-        text-align: left;
-    }
-    .content h2 {
-        text-align: left;
-    }
-    .content h3 {
-        text-align: left;
-    } */
     .content :is(h1, h2, h3) {
         text-align: left;
     }
@@ -698,6 +689,8 @@ strong {
     width: auto;
     height: 100%;
     max-height: 35vw;
+    min-width: 150px;
+    margin-top: 30px;
     object-fit: cover;
 }
 

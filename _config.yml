@@ -34,6 +34,9 @@ exclude:
 gems:
 - jekyll-seo-tag
 
+plugins:
+  - jekyll-seo-tag
+
 keep_files:
   - 'CNAME'
   - '.git'
